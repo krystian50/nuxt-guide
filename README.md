@@ -9,17 +9,18 @@ Wstęp do NuxtJS i ExpressJS. Prosta strona z danymi dodanymi do asyncData
 - Działanie aplikacji uniwersalnych
 - Działanie serwera NodeJS w połączeniu z NuxtJS
 - Działanie asyncData i fetch
-- Działanie lifecycle hooks w apce Nuxt
+- Działanie lifecycle hooks w apce NuxtJS
 
 ### Zadania
 - Wygeneruj projekt
 - Dodaj funkcje zwracajaca promise z danymi
-- Dodaj listing produktow
-- Dodaj strone produktu
+- Dodaj stronę główną z listingiem produktów
+- Dodaj pustą stronę produktu
 
 
 ## Iteracja 2
-Uzycie stora
+Użycie stora
+
 ### Koncept
 - Działanie nuxtServerInit
 - Działanie modułów - modul axios
@@ -30,10 +31,10 @@ Uzycie stora
 - Dodaj moduł axios do aplikacji
 - Dodaj serverMiddleware oparty o expressJS
 - Dodaj strukture danych zapisana w expressJS
-- Dodaj dane w firebase - extra
+- Dodaj dane w firebase lub odpal `npm i --g http-server` - zadanie extra
 
 ## Iteracja 3
-Dodanie autoryzacji
+Autoryzacja
 
 ### Koncept
 - Dodanie autoryzacji z nuxt auth module
