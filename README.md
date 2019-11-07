@@ -44,6 +44,7 @@ Autoryzacja
 
 ### Zadania
 - zintegruj nuxt auth module z aplikacja (uzyj auth0, github, google lub innej usługi)
+- Dodaj guzik kup produkt, ktory bedzie wysylal dane usera (prośba o kontakt)
 
 ## Iteracja 4
 Dodawanie produktów do sklepu
