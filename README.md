@@ -4,9 +4,11 @@
 Wstęp do NuxtJS i ExpressJS. Prosta strona z danymi dodanymi do asyncData
 
 ### Koncept
-- Generowanie projektu NuxtJS
 - Działanie aplikacji uniwersalnych
 - Działanie serwera NodeJS w połączeniu z NuxtJS
+    - Basic: https://zendev.com/2018/09/17/frontend-architecture-lessons-from-nuxt-js.html
+    - Advanced: https://medium.com/free-code-camp/universal-application-code-structure-in-nuxt-js-4cd014cc0baa
+- Generowanie projektu NuxtJS
 - Elementy kluczowe aplikacji
 - Działanie asyncData i fetch
 - Działanie lifecycle hooks w apce NuxtJS
