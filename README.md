@@ -5,9 +5,9 @@ Wstęp do NuxtJS i ExpressJS. Prosta strona z danymi dodanymi do asyncData
 
 ### Koncept
 - Generowanie projektu NuxtJS
-- Elementy kluczowe aplikacji
 - Działanie aplikacji uniwersalnych
 - Działanie serwera NodeJS w połączeniu z NuxtJS
+- Elementy kluczowe aplikacji
 - Działanie asyncData i fetch
 - Działanie lifecycle hooks w apce NuxtJS
 
