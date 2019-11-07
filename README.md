@@ -28,13 +28,13 @@ Użycie stora
 - Działanie nuxtServerInit
 - Działanie modułów - modul axios
 - Strzały do API i zapisywanie danych w store
-- Modyfikacja zmiennej w expresie przy strzalach
+- Modyfikacja zmiennej w expresie poprzez zapytania do API
 
 ### Zadania
 - Dodaj moduł axios do aplikacji
 - Dodaj serverMiddleware oparty o expressJS
 - Dodaj strukture danych zapisana w expressJS
-- Dodaj dane w firebase lub odpal `npm i --g http-server` - zadanie extra
+- Zadanie extra: Dodaj dane w firebase lub wykonaj `npm i --g http-server`
 
 ## Iteracja 3
 Autoryzacja
@@ -43,17 +43,18 @@ Autoryzacja
 - Dodanie autoryzacji z nuxt auth module
 
 ### Zadania
-- zintegruj nuxt auth module z aplikacja
+- zintegruj nuxt auth module z aplikacja (uzyj auth0, github, google lub innej usługi)
 
 ## Iteracja 4
 Dodawanie produktów do sklepu
 
 ### Koncept
-- Zewnetrzna baza danych z firebase
+- Zewnetrzna baza danych w firebase (lub innej usłudze)
 - dodawanie danych do bazy
 - markdown edytor do opisu produktu
 
 ### Zadania
+- Dodaj dane w firebase lub wykonaj `npm i --g http-server`
 - Dodaj strone dodawania produktow
 - Dodaj plugin vue markdown editor
-- Dodaj zapisywanie tytulu, markdownu opisu produktu oraz zdjecia w bazie danych
+- Dodaj zapisywanie tytulu, markdownu opisu oraz zdjecia w bazie danych
