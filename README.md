@@ -34,15 +34,6 @@ Użycie stora
 - Dodaj dane w firebase lub odpal `npm i --g http-server` - zadanie extra
 
 ## Iteracja 3
-Autoryzacja
-
-### Koncept
-- Dodanie autoryzacji z nuxt auth module
-
-### Zadania
-- zintegruj nuxt auth module z aplikacja
-
-## Iteracja 4
 Dodawanie produktów do sklepu
 
 ### Koncept
@@ -54,3 +45,13 @@ Dodawanie produktów do sklepu
 - Dodaj strone dodawania produktow
 - Dodaj plugin vue markdown editor
 - Dodaj zapisywanie tytulu, markdownu opisu produktu oraz zdjecia w bazie danych
+
+
+## Iteracja 4
+Autoryzacja
+
+### Koncept
+- Dodanie autoryzacji z nuxt auth module
+
+### Zadania
+- zintegruj nuxt auth module z aplikacja
