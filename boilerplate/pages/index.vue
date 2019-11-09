@@ -11,14 +11,12 @@
 </template>
 
 <script>
-import ProductsRepository from '~/repositories/ProductsRepository'
-
 export default {
   name: 'Homepage',
 
-  async asyncData () {
+  async asyncData ({ $axios }) {
     return {
-      products: await ProductsRepository.get()
+      products: await $axios.get('/api/products').then(({ data }) => data)
     }
   }
 }
