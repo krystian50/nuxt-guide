@@ -35,6 +35,8 @@ export default {
 
     saveProduct () {
       console.log(this.product)
+
+      this.$axios.post('/api/products', this.product)
     }
   }
 }
