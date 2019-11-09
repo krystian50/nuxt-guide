@@ -1,21 +1,11 @@
-const products = [
-  {
-    'id': '1',
-    'name': 'something 1'
-  },
-  {
-    'id': '2',
-    'name': 'something 2'
-  },
-  {
-    'id': '3',
-    'name': 'something 3'
-  }
-]
+import axios from 'axios'
 
 export default (app) => {
   app.get(`/hello`, (_req, res) => res.status(200).end('no hej'))
-  app.get(`/products`, (_req, res) => res.status(200).send(products))
+  app.get(`/products`, async (_req, res) => {
+    const { data } = (await axios.get('http://127.0.0.1:3001/products'))
+    res.status(200).send(data)
+  })
   app.post(`/products`, (req, res) => {
     products.push({ name: req.body.name, id})
   })
